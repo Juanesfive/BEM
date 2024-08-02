@@ -6,14 +6,30 @@
     margin: 10px 0;
     position: relative;
     color: #fff;
+    cursor: pointer;
   }
   
   .notificacion--exito {
     background-color: #4caf50; 
+    cursor: pointer;
+  }
+
+  .notificacion--exito:hover{
+      background-color: #ffffff;
+    color: var(--color2);
+    border: solid 1px var(--color2);
   }
   
   .notificacion--error {
     background-color: #f44336; 
+  }
+
+  .notificacion--cargando {
+    background-color: #8e8e8e; 
+  }
+  
+  .notificacion--cerrado {
+    background-color: #6cf1f1; 
   }
   
   .notificacion__icono {
@@ -23,6 +39,7 @@
   
   .notificacion__texto {
     flex-grow: 1; 
+    cursor: pointer;
   }
   
   .notificacion__cerrar {
