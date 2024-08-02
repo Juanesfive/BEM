@@ -12,6 +12,7 @@
   .notificacion--exito {
     background-color: #4caf50; 
     cursor: pointer;
+    border: 1px solid #4caf50;
   }
 
   .notificacion--exito:hover{
@@ -22,14 +23,38 @@
   
   .notificacion--error {
     background-color: #f44336; 
+    cursor: pointer;
+    border: 1px solid #f44336;
+  }
+
+    .notificacion--error:hover{
+      background-color: #ffffff;
+    color: var(--color2);
+    border: solid 1px var(--color2);
   }
 
   .notificacion--cargando {
-    background-color: #8e8e8e; 
+    background-color: #8e8e8e;
+    cursor: pointer;
+    border: 1px solid #8e8e8e;
+  }
+
+  .notificacion--cargando:hover{
+      background-color: #ffffff;
+    color: var(--color2);
+    border: solid 1px var(--color2);
   }
   
   .notificacion--cerrado {
     background-color: #6cf1f1; 
+    cursor: pointer;
+    border: 1px solid #6cf1f1;
+  }
+
+  .notificacion--cerrado:hover{
+      background-color: #ffffff;
+      color: var(--color2);
+      border: solid 1px var(--color2);
   }
   
   .notificacion__icono {
