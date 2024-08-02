@@ -1,0 +1,23 @@
+.lista {
+    width: 400px;
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .lista__item {
+    border: solid 1px var(--color1);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lista__texto {
+    color: #fff;
+  }
+  
+  .lista__icono {
+    color: #fff;
+  }
+  

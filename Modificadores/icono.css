@@ -1,0 +1,17 @@
+.icono {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .icono__tipo {
+    font-size: 24px;
+    color: var(--color1);
+    margin-right: 8px;
+  }
+  
+  .icono__texto {
+    font-size: 16px;
+    color: #333;
+  }
+  
