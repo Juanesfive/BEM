@@ -1,0 +1,38 @@
+.notificacion {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    color: #fff;
+  }
+  
+  .notificacion--exito {
+    background-color: #4caf50; 
+  }
+  
+  .notificacion--error {
+    background-color: #f44336; 
+  }
+  
+  .notificacion__icono {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .notificacion__texto {
+    flex-grow: 1; 
+  }
+  
+  .notificacion__cerrar {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  

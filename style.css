@@ -7,6 +7,8 @@
 @import url(Modificadores/icono.css);
 @import url(tarjeta.css);
 @import url(Modificadores/tarjeta.css);
+@import url(notificacion.css);
+@import url(Modificadores/notificacion.css);
 
 * {
   margin: 10px;

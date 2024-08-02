@@ -16,7 +16,7 @@
     color: #666;
   }
   
-  .tarjeta__acciones {
+  .tarjeta__acciones::after {
     margin-top: 10px;
   }
   
